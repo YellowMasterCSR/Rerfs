@@ -1,0 +1,1377 @@
+[02:15:47][D][commanddispatcher.cpp:92]: There's a lot of outgoing commands now (567). This will affect performance.
+[02:15:48][D][commanddispatcher.cpp:78]: Invalid command. ID: 188, Type: send_character_interaction, Recipient: BROADCAST
+[02:15:48][D][commanddispatcher.cpp:73]: Command data: ID: 188, Type: send_character_interaction, Recipient: BROADCAST, Message: 'send_character_interaction={
+	default_state={
+		identity=188
+		sender=1
+		receiver=0
+		attribs=0
+	}
+	object={
+		character_interaction={
+			character_interaction=ai_only_liege_modify_vassal_contract_interaction			scope={
+				root={
+				}
+
+				seed=729614068
+				event_targets={
+					actor={
+						type=char
+						identity=28551
+					}
+
+					recipient={
+						type=char
+						identity=36769
+					}
+
+					secondary_actor={
+						type=char
+						identity=4294967295
+					}
+
+					secondary_recipient={
+						type=char
+						identity=4294967295
+					}
+
+					intermediary={
+						type=char
+						identity=4294967295
+					}
+
+				}
+
+			}
+
+			original_scope={
+				root={
+				}
+
+				seed=729614068
+			}
+
+			actor=28551
+			recipient=36769
+		}
+
+		ai_intermediary_accept=100
+		ai_accept=1
+	}
+}
+'
+[02:16:02][D][commanddispatcher.cpp:78]: Invalid command. ID: 866, Type: join_activity_command, Recipient: BROADCAST
+[02:16:02][D][commanddispatcher.cpp:73]: Command data: ID: 866, Type: join_activity_command, Recipient: BROADCAST, Message: 'join_activity_command={
+	default_state={
+		identity=866
+		sender=1
+		receiver=0
+		attribs=0
+	}
+	object={
+		activity=3
+		character=28190
+		travel_plan_draft_created={
+			owner=28190
+			companions={ {
+					character=56831
+					date=1066.10.9
+					location=8891
+					source=activity
+				}
+ {
+					character=31809
+					date=1066.10.9
+					location=8891
+					source=activity
+				}
+ {
+					character=50653
+					date=1066.10.9
+					location=8891
+					source=activity
+				}
+ {
+					character=28760
+					date=1066.10.9
+					location=8891
+					source=activity
+				}
+ {
+					character=50651
+					date=1066.10.9
+					location=8891
+					source=activity
+				}
+ {
+					character=50650
+					date=1066.10.9
+					location=8891
+					source=activity
+				}
+ {
+					character=31475
+					date=1066.10.9
+					location=8891
+					source=activity
+				}
+ }
+			departure_date=-1.1.1
+			departure_location=8891
+			destinations={ 10249 8891 }
+			waypoints={
+				size=2
+			}
+
+			on_arrival={
+			}
+
+			on_start={
+			}
+
+			on_travel_planner_cancel={
+			}
+
+			scope={
+				root={
+				}
+
+				seed=-1
+			}
+
+		}
+
+	}
+}
+'
+[02:16:04][D][commanddispatcher.cpp:92]: There's a lot of outgoing commands now (670). This will affect performance.
+[02:16:04][D][commanddispatcher.cpp:78]: Invalid command. ID: 1222, Type: change_council_task, Recipient: BROADCAST
+[02:16:04][D][commanddispatcher.cpp:73]: Command data: ID: 1222, Type: change_council_task, Recipient: BROADCAST, Message: 'change_council_task={
+	default_state={
+		identity=1222
+		sender=1
+		receiver=0
+		attribs=0
+	}
+	object={
+		character=46767
+		liege=31759
+		active_council_task=9715
+		task_type=task_kurultai_exploit_area_2		target={
+			type=prov
+			identity=7322
+		}
+
+	}
+}
+'
+[02:16:12][D][commanddispatcher.cpp:78]: Invalid command. ID: 1829, Type: create_random_accolade, Recipient: BROADCAST
+[02:16:12][D][commanddispatcher.cpp:73]: Command data: ID: 1829, Type: create_random_accolade, Recipient: BROADCAST, Message: 'create_random_accolade={
+	default_state={
+		identity=1829
+		sender=1
+		receiver=0
+		attribs=0
+	}
+	object={
+		acclaimed=31625
+		liege=35138
+	}
+}
+'
+[02:16:12][D][commanddispatcher.cpp:92]: There's a lot of outgoing commands now (746). This will affect performance.
+[02:16:13][D][commanddispatcher.cpp:78]: Invalid command. ID: 2442, Type: send_character_interaction, Recipient: BROADCAST
+[02:16:13][D][commanddispatcher.cpp:73]: Command data: ID: 2442, Type: send_character_interaction, Recipient: BROADCAST, Message: 'send_character_interaction={
+	default_state={
+		identity=2442
+		sender=1
+		receiver=0
+		attribs=0
+	}
+	object={
+		character_interaction={
+			character_interaction=arrange_marriage_interaction			scope={
+				root={
+				}
+
+				seed=-1
+				event_targets={
+					actor={
+						type=char
+						identity=32686
+					}
+
+					recipient={
+						type=char
+						identity=33409
+					}
+
+					secondary_actor={
+						type=char
+						identity=32686
+					}
+
+					secondary_recipient={
+						type=char
+						identity=55280
+					}
+
+					intermediary={
+						type=char
+						identity=4294967295
+					}
+
+					grand_wedding_promise={
+						type=boolean
+					}
+
+					matrilineal={
+						type=boolean
+					}
+
+					hook={
+						type=boolean
+					}
+
+					piety_cost_reduction={
+						type=boolean
+					}
+
+					influence_send_option={
+						type=boolean
+					}
+
+					herd_send_option={
+						type=boolean
+					}
+
+				}
+
+			}
+
+			original_scope={
+				root={
+				}
+
+				seed=-1
+			}
+
+			actor=32686
+			recipient=33409
+			secondary_actor=32686
+			secondary_recipient=55280
+			options={ 6 }
+			arrange_marriage_interaction={
+			}
+		}
+
+		ai_intermediary_accept=100
+		ai_accept=82
+	}
+}
+'
+[02:16:13][D][commanddispatcher.cpp:78]: Invalid command. ID: 2454, Type: send_character_interaction, Recipient: BROADCAST
+[02:16:13][D][commanddispatcher.cpp:73]: Command data: ID: 2454, Type: send_character_interaction, Recipient: BROADCAST, Message: 'send_character_interaction={
+	default_state={
+		identity=2454
+		sender=1
+		receiver=0
+		attribs=0
+	}
+	object={
+		character_interaction={
+			character_interaction=arrange_marriage_interaction			scope={
+				root={
+				}
+
+				seed=-1
+				event_targets={
+					actor={
+						type=char
+						identity=32927
+					}
+
+					recipient={
+						type=char
+						identity=30289
+					}
+
+					secondary_actor={
+						type=char
+						identity=32927
+					}
+
+					secondary_recipient={
+						type=char
+						identity=62866
+					}
+
+					intermediary={
+						type=char
+						identity=4294967295
+					}
+
+					grand_wedding_promise={
+						type=boolean
+					}
+
+					matrilineal={
+						type=boolean
+					}
+
+					hook={
+						type=boolean
+					}
+
+					piety_cost_reduction={
+						type=boolean
+					}
+
+					influence_send_option={
+						type=boolean
+					}
+
+					herd_send_option={
+						type=boolean
+					}
+
+				}
+
+			}
+
+			original_scope={
+				root={
+				}
+
+				seed=-1
+			}
+
+			actor=32927
+			recipient=30289
+			secondary_actor=32927
+			secondary_recipient=62866
+			options={ 6 }
+			arrange_marriage_interaction={
+			}
+		}
+
+		ai_intermediary_accept=100
+		ai_accept=111
+	}
+}
+'
+[02:16:13][D][commanddispatcher.cpp:78]: Invalid command. ID: 2531, Type: send_character_interaction, Recipient: BROADCAST
+[02:16:13][D][commanddispatcher.cpp:73]: Command data: ID: 2531, Type: send_character_interaction, Recipient: BROADCAST, Message: 'send_character_interaction={
+	default_state={
+		identity=2531
+		sender=1
+		receiver=0
+		attribs=0
+	}
+	object={
+		character_interaction={
+			character_interaction=arrange_marriage_interaction			scope={
+				root={
+				}
+
+				seed=-1
+				event_targets={
+					actor={
+						type=char
+						identity=34304
+					}
+
+					recipient={
+						type=char
+						identity=34305
+					}
+
+					secondary_actor={
+						type=char
+						identity=34304
+					}
+
+					secondary_recipient={
+						type=char
+						identity=54154
+					}
+
+					intermediary={
+						type=char
+						identity=4294967295
+					}
+
+					grand_wedding_promise={
+						type=boolean
+					}
+
+					matrilineal={
+						type=boolean
+					}
+
+					hook={
+						type=boolean
+					}
+
+					piety_cost_reduction={
+						type=boolean
+					}
+
+					influence_send_option={
+						type=boolean
+					}
+
+					herd_send_option={
+						type=boolean
+					}
+
+				}
+
+			}
+
+			original_scope={
+				root={
+				}
+
+				seed=-1
+			}
+
+			actor=34304
+			recipient=34305
+			secondary_actor=34304
+			secondary_recipient=54154
+			options={ 6 }
+			arrange_marriage_interaction={
+			}
+		}
+
+		ai_intermediary_accept=100
+		ai_accept=41
+	}
+}
+'
+[02:16:14][D][commanddispatcher.cpp:78]: Invalid command. ID: 2579, Type: send_character_interaction, Recipient: BROADCAST
+[02:16:14][D][commanddispatcher.cpp:73]: Command data: ID: 2579, Type: send_character_interaction, Recipient: BROADCAST, Message: 'send_character_interaction={
+	default_state={
+		identity=2579
+		sender=1
+		receiver=0
+		attribs=0
+	}
+	object={
+		character_interaction={
+			character_interaction=arrange_marriage_interaction			scope={
+				root={
+				}
+
+				seed=-1
+				event_targets={
+					actor={
+						type=char
+						identity=28366
+					}
+
+					recipient={
+						type=char
+						identity=30290
+					}
+
+					secondary_actor={
+						type=char
+						identity=31791
+					}
+
+					secondary_recipient={
+						type=char
+						identity=35348
+					}
+
+					intermediary={
+						type=char
+						identity=4294967295
+					}
+
+					grand_wedding_promise={
+						type=boolean
+					}
+
+					matrilineal={
+						type=boolean
+					}
+
+					hook={
+						type=boolean
+					}
+
+					piety_cost_reduction={
+						type=boolean
+					}
+
+					influence_send_option={
+						type=boolean
+					}
+
+					herd_send_option={
+						type=boolean
+					}
+
+				}
+
+			}
+
+			original_scope={
+				root={
+				}
+
+				seed=-1
+			}
+
+			actor=28366
+			recipient=30290
+			secondary_actor=31791
+			secondary_recipient=35348
+			options={ 6 }
+			arrange_marriage_interaction={
+			}
+		}
+
+		ai_intermediary_accept=100
+		ai_accept=3
+	}
+}
+'
+[02:16:15][D][commanddispatcher.cpp:78]: Invalid command. ID: 2692, Type: send_character_interaction, Recipient: BROADCAST
+[02:16:15][D][commanddispatcher.cpp:73]: Command data: ID: 2692, Type: send_character_interaction, Recipient: BROADCAST, Message: 'send_character_interaction={
+	default_state={
+		identity=2692
+		sender=1
+		receiver=0
+		attribs=0
+	}
+	object={
+		character_interaction={
+			character_interaction=denounce_interaction			scope={
+				root={
+				}
+
+				seed=786649374
+				event_targets={
+					actor={
+						type=char
+						identity=31359
+					}
+
+					recipient={
+						type=char
+						identity=31897
+					}
+
+					secondary_actor={
+						type=char
+						identity=4294967295
+					}
+
+					secondary_recipient={
+						type=char
+						identity=4294967295
+					}
+
+					intermediary={
+						type=char
+						identity=4294967295
+					}
+
+				}
+
+			}
+
+			original_scope={
+				root={
+				}
+
+				seed=786649374
+			}
+
+			actor=31359
+			recipient=31897
+		}
+
+		ai_intermediary_accept=100
+		ai_accept=1
+	}
+}
+'
+[02:16:15][D][commanddispatcher.cpp:78]: Invalid command. ID: 2695, Type: create_random_accolade, Recipient: BROADCAST
+[02:16:15][D][commanddispatcher.cpp:73]: Command data: ID: 2695, Type: create_random_accolade, Recipient: BROADCAST, Message: 'create_random_accolade={
+	default_state={
+		identity=2695
+		sender=1
+		receiver=0
+		attribs=0
+	}
+	object={
+		acclaimed=43850
+		liege=31359
+	}
+}
+'
+[02:16:19][D][commanddispatcher.cpp:92]: There's a lot of outgoing commands now (685). This will affect performance.
+[02:16:21][D][commanddispatcher.cpp:78]: Invalid command. ID: 3519, Type: send_character_interaction, Recipient: BROADCAST
+[02:16:21][D][commanddispatcher.cpp:73]: Command data: ID: 3519, Type: send_character_interaction, Recipient: BROADCAST, Message: 'send_character_interaction={
+	default_state={
+		identity=3519
+		sender=1
+		receiver=0
+		attribs=0
+	}
+	object={
+		character_interaction={
+			character_interaction=disinherit_interaction			scope={
+				root={
+				}
+
+				seed=668020424
+				event_targets={
+					actor={
+						type=char
+						identity=28143
+					}
+
+					recipient={
+						type=char
+						identity=39316
+					}
+
+					secondary_actor={
+						type=char
+						identity=4294967295
+					}
+
+					secondary_recipient={
+						type=char
+						identity=4294967295
+					}
+
+					intermediary={
+						type=char
+						identity=4294967295
+					}
+
+				}
+
+			}
+
+			original_scope={
+				root={
+				}
+
+				seed=668020424
+			}
+
+			actor=28143
+			recipient=39316
+		}
+
+		ai_intermediary_accept=100
+		ai_accept=1
+	}
+}
+'
+[02:16:22][D][commanddispatcher.cpp:78]: Invalid command. ID: 3582, Type: raise_troops, Recipient: BROADCAST
+[02:16:22][D][commanddispatcher.cpp:73]: Command data: ID: 3582, Type: raise_troops, Recipient: BROADCAST, Message: 'raise_troops={
+	default_state={
+		identity=3582
+		sender=1
+		receiver=0
+		attribs=0
+	}
+	object={
+		character=31617
+		rally_points={ {
+				province=11877
+				color=0
+			}
+ }
+		raise_army_type=raid
+	}
+}
+'
+[02:16:22][D][commanddispatcher.cpp:78]: Invalid command. ID: 3585, Type: raise_troops, Recipient: BROADCAST
+[02:16:22][D][commanddispatcher.cpp:73]: Command data: ID: 3585, Type: raise_troops, Recipient: BROADCAST, Message: 'raise_troops={
+	default_state={
+		identity=3585
+		sender=1
+		receiver=0
+		attribs=0
+	}
+	object={
+		character=33477
+		rally_points={ {
+				province=1132
+				color=0
+			}
+ }
+		raise_army_type=raid
+	}
+}
+'
+[02:16:29][D][commanddispatcher.cpp:92]: There's a lot of outgoing commands now (734). This will affect performance.
+[02:16:30][D][commanddispatcher.cpp:78]: Invalid command. ID: 4170, Type: send_character_interaction, Recipient: BROADCAST
+[02:16:30][D][commanddispatcher.cpp:73]: Command data: ID: 4170, Type: send_character_interaction, Recipient: BROADCAST, Message: 'send_character_interaction={
+	default_state={
+		identity=4170
+		sender=1
+		receiver=0
+		attribs=0
+	}
+	object={
+		character_interaction={
+			character_interaction=arrange_marriage_interaction			scope={
+				root={
+				}
+
+				seed=-1
+				event_targets={
+					actor={
+						type=char
+						identity=29165
+					}
+
+					recipient={
+						type=char
+						identity=31742
+					}
+
+					secondary_actor={
+						type=char
+						identity=29165
+					}
+
+					secondary_recipient={
+						type=char
+						identity=46811
+					}
+
+					intermediary={
+						type=char
+						identity=4294967295
+					}
+
+					grand_wedding_promise={
+						type=boolean
+					}
+
+					matrilineal={
+						type=boolean
+					}
+
+					hook={
+						type=boolean
+					}
+
+					piety_cost_reduction={
+						type=boolean
+					}
+
+					influence_send_option={
+						type=boolean
+					}
+
+					herd_send_option={
+						type=boolean
+					}
+
+				}
+
+			}
+
+			original_scope={
+				root={
+				}
+
+				seed=-1
+			}
+
+			actor=29165
+			recipient=31742
+			secondary_actor=29165
+			secondary_recipient=46811
+			options={ 6 }
+			arrange_marriage_interaction={
+			}
+		}
+
+		ai_intermediary_accept=100
+		ai_accept=66
+	}
+}
+'
+[02:16:30][D][commanddispatcher.cpp:78]: Invalid command. ID: 4307, Type: send_character_interaction, Recipient: BROADCAST
+[02:16:30][D][commanddispatcher.cpp:73]: Command data: ID: 4307, Type: send_character_interaction, Recipient: BROADCAST, Message: 'send_character_interaction={
+	default_state={
+		identity=4307
+		sender=1
+		receiver=0
+		attribs=0
+	}
+	object={
+		character_interaction={
+			character_interaction=arrange_marriage_interaction			scope={
+				root={
+				}
+
+				seed=-1
+				event_targets={
+					actor={
+						type=char
+						identity=31326
+					}
+
+					recipient={
+						type=char
+						identity=31320
+					}
+
+					secondary_actor={
+						type=char
+						identity=31326
+					}
+
+					secondary_recipient={
+						type=char
+						identity=47297
+					}
+
+					intermediary={
+						type=char
+						identity=4294967295
+					}
+
+					grand_wedding_promise={
+						type=boolean
+					}
+
+					matrilineal={
+						type=boolean
+					}
+
+					hook={
+						type=boolean
+					}
+
+					piety_cost_reduction={
+						type=boolean
+					}
+
+					influence_send_option={
+						type=boolean
+					}
+
+					herd_send_option={
+						type=boolean
+					}
+
+				}
+
+			}
+
+			original_scope={
+				root={
+				}
+
+				seed=-1
+			}
+
+			actor=31326
+			recipient=31320
+			secondary_actor=31326
+			secondary_recipient=47297
+			options={ 6 }
+			arrange_marriage_interaction={
+			}
+		}
+
+		ai_intermediary_accept=100
+		ai_accept=39
+	}
+}
+'
+[02:16:30][D][commanddispatcher.cpp:78]: Invalid command. ID: 4400, Type: send_character_interaction, Recipient: BROADCAST
+[02:16:30][D][commanddispatcher.cpp:73]: Command data: ID: 4400, Type: send_character_interaction, Recipient: BROADCAST, Message: 'send_character_interaction={
+	default_state={
+		identity=4400
+		sender=1
+		receiver=0
+		attribs=0
+	}
+	object={
+		character_interaction={
+			character_interaction=denounce_interaction			scope={
+				root={
+				}
+
+				seed=583684112
+				event_targets={
+					actor={
+						type=char
+						identity=28382
+					}
+
+					recipient={
+						type=char
+						identity=38311
+					}
+
+					secondary_actor={
+						type=char
+						identity=4294967295
+					}
+
+					secondary_recipient={
+						type=char
+						identity=4294967295
+					}
+
+					intermediary={
+						type=char
+						identity=4294967295
+					}
+
+				}
+
+			}
+
+			original_scope={
+				root={
+				}
+
+				seed=583684112
+			}
+
+			actor=28382
+			recipient=38311
+		}
+
+		ai_intermediary_accept=100
+		ai_accept=1
+	}
+}
+'
+[02:16:34][D][commanddispatcher.cpp:78]: Invalid command. ID: 4550, Type: send_character_interaction, Recipient: BROADCAST
+[02:16:34][D][commanddispatcher.cpp:73]: Command data: ID: 4550, Type: send_character_interaction, Recipient: BROADCAST, Message: 'send_character_interaction={
+	default_state={
+		identity=4550
+		sender=1
+		receiver=0
+		attribs=0
+	}
+	object={
+		character_interaction={
+			character_interaction=start_challenge_status_interaction			scope={
+				root={
+				}
+
+				seed=8591336
+				event_targets={
+					actor={
+						type=char
+						identity=28598
+					}
+
+					recipient={
+						type=char
+						identity=27275
+					}
+
+					secondary_actor={
+						type=char
+						identity=4294967295
+					}
+
+					secondary_recipient={
+						type=char
+						identity=4294967295
+					}
+
+					intermediary={
+						type=char
+						identity=4294967295
+					}
+
+					agent_focus_balance={
+						type=boolean
+						identity=1
+					}
+
+					agent_focus_success={
+						type=boolean
+					}
+
+					agent_focus_speed={
+						type=boolean
+					}
+
+				}
+
+			}
+
+			original_scope={
+				root={
+				}
+
+				seed=8591336
+			}
+
+			actor=28598
+			recipient=27275
+			options={ 3 0=yes }
+		}
+
+		ai_intermediary_accept=100
+		ai_accept=1
+	}
+}
+'
+[02:16:35][D][commanddispatcher.cpp:92]: There's a lot of outgoing commands now (740). This will affect performance.
+[02:16:35][D][commanddispatcher.cpp:78]: Invalid command. ID: 4660, Type: change_council_task, Recipient: BROADCAST
+[02:16:35][D][commanddispatcher.cpp:73]: Command data: ID: 4660, Type: change_council_task, Recipient: BROADCAST, Message: 'change_council_task={
+	default_state={
+		identity=4660
+		sender=1
+		receiver=0
+		attribs=0
+	}
+	object={
+		character=63375
+		liege=32686
+		active_council_task=10702
+		task_type=task_kurultai_exploit_area_3		target={
+			type=prov
+			identity=7141
+		}
+
+	}
+}
+'
+[02:16:35][D][commanddispatcher.cpp:78]: Invalid command. ID: 4663, Type: change_council_task, Recipient: BROADCAST
+[02:16:35][D][commanddispatcher.cpp:73]: Command data: ID: 4663, Type: change_council_task, Recipient: BROADCAST, Message: 'change_council_task={
+	default_state={
+		identity=4663
+		sender=1
+		receiver=0
+		attribs=0
+	}
+	object={
+		character=35921
+		liege=36287
+		active_council_task=3788
+		task_type=task_kurultai_control_2		target={
+			type=prov
+			identity=7668
+		}
+
+	}
+}
+'
+[02:16:35][D][commanddispatcher.cpp:78]: Invalid command. ID: 4668, Type: change_council_task, Recipient: BROADCAST
+[02:16:35][D][commanddispatcher.cpp:73]: Command data: ID: 4668, Type: change_council_task, Recipient: BROADCAST, Message: 'change_council_task={
+	default_state={
+		identity=4668
+		sender=1
+		receiver=0
+		attribs=0
+	}
+	object={
+		character=37021
+		liege=36287
+		active_council_task=3789
+		task_type=task_kurultai_control_3		target={
+			type=prov
+			identity=7668
+		}
+
+	}
+}
+'
+[02:16:35][D][commanddispatcher.cpp:78]: Invalid command. ID: 4678, Type: change_council_task, Recipient: BROADCAST
+[02:16:35][D][commanddispatcher.cpp:73]: Command data: ID: 4678, Type: change_council_task, Recipient: BROADCAST, Message: 'change_council_task={
+	default_state={
+		identity=4678
+		sender=1
+		receiver=0
+		attribs=0
+	}
+	object={
+		character=52158
+		liege=36287
+		active_council_task=3790
+		task_type=task_kurultai_control_4		target={
+			type=prov
+			identity=7668
+		}
+
+	}
+}
+'
+[02:16:35][D][commanddispatcher.cpp:78]: Invalid command. ID: 4757, Type: change_council_task, Recipient: BROADCAST
+[02:16:35][D][commanddispatcher.cpp:73]: Command data: ID: 4757, Type: change_council_task, Recipient: BROADCAST, Message: 'change_council_task={
+	default_state={
+		identity=4757
+		sender=1
+		receiver=0
+		attribs=0
+	}
+	object={
+		character=55430
+		liege=33229
+		active_council_task=679
+		task_type=task_kurultai_exploit_area_2		target={
+			type=prov
+			identity=11682
+		}
+
+	}
+}
+'
+[02:16:35][D][commanddispatcher.cpp:78]: Invalid command. ID: 4851, Type: change_council_task, Recipient: BROADCAST
+[02:16:35][D][commanddispatcher.cpp:73]: Command data: ID: 4851, Type: change_council_task, Recipient: BROADCAST, Message: 'change_council_task={
+	default_state={
+		identity=4851
+		sender=1
+		receiver=0
+		attribs=0
+	}
+	object={
+		character=63376
+		liege=32686
+		active_council_task=10703
+		task_type=task_kurultai_exploit_area_4		target={
+			type=prov
+			identity=7141
+		}
+
+	}
+}
+'
+[02:16:35][D][commanddispatcher.cpp:78]: Invalid command. ID: 5128, Type: send_character_interaction, Recipient: BROADCAST
+[02:16:35][D][commanddispatcher.cpp:73]: Command data: ID: 5128, Type: send_character_interaction, Recipient: BROADCAST, Message: 'send_character_interaction={
+	default_state={
+		identity=5128
+		sender=1
+		receiver=0
+		attribs=0
+	}
+	object={
+		character_interaction={
+			character_interaction=arrange_marriage_interaction			scope={
+				root={
+				}
+
+				seed=-1
+				event_targets={
+					actor={
+						type=char
+						identity=27794
+					}
+
+					recipient={
+						type=char
+						identity=27790
+					}
+
+					secondary_actor={
+						type=char
+						identity=27794
+					}
+
+					secondary_recipient={
+						type=char
+						identity=50982
+					}
+
+					intermediary={
+						type=char
+						identity=4294967295
+					}
+
+					grand_wedding_promise={
+						type=boolean
+					}
+
+					matrilineal={
+						type=boolean
+					}
+
+					hook={
+						type=boolean
+					}
+
+					piety_cost_reduction={
+						type=boolean
+					}
+
+					influence_send_option={
+						type=boolean
+					}
+
+					herd_send_option={
+						type=boolean
+					}
+
+				}
+
+			}
+
+			original_scope={
+				root={
+				}
+
+				seed=-1
+			}
+
+			actor=27794
+			recipient=27790
+			secondary_actor=27794
+			secondary_recipient=50982
+			options={ 6 }
+			arrange_marriage_interaction={
+			}
+		}
+
+		ai_intermediary_accept=100
+		ai_accept=49
+	}
+}
+'
+[02:16:35][D][commanddispatcher.cpp:78]: Invalid command. ID: 5131, Type: send_character_interaction, Recipient: BROADCAST
+[02:16:35][D][commanddispatcher.cpp:73]: Command data: ID: 5131, Type: send_character_interaction, Recipient: BROADCAST, Message: 'send_character_interaction={
+	default_state={
+		identity=5131
+		sender=1
+		receiver=0
+		attribs=0
+	}
+	object={
+		character_interaction={
+			character_interaction=arrange_marriage_interaction			scope={
+				root={
+				}
+
+				seed=-1
+				event_targets={
+					actor={
+						type=char
+						identity=30490
+					}
+
+					recipient={
+						type=char
+						identity=30489
+					}
+
+					secondary_actor={
+						type=char
+						identity=30490
+					}
+
+					secondary_recipient={
+						type=char
+						identity=48517
+					}
+
+					intermediary={
+						type=char
+						identity=4294967295
+					}
+
+					grand_wedding_promise={
+						type=boolean
+					}
+
+					matrilineal={
+						type=boolean
+					}
+
+					hook={
+						type=boolean
+					}
+
+					piety_cost_reduction={
+						type=boolean
+					}
+
+					influence_send_option={
+						type=boolean
+					}
+
+					herd_send_option={
+						type=boolean
+					}
+
+				}
+
+			}
+
+			original_scope={
+				root={
+				}
+
+				seed=-1
+			}
+
+			actor=30490
+			recipient=30489
+			secondary_actor=30490
+			secondary_recipient=48517
+			options={ 6 }
+			arrange_marriage_interaction={
+			}
+		}
+
+		ai_intermediary_accept=100
+		ai_accept=153
+	}
+}
+'
+[02:16:35][D][commanddispatcher.cpp:78]: Invalid command. ID: 5179, Type: send_character_interaction, Recipient: BROADCAST
+[02:16:35][D][commanddispatcher.cpp:73]: Command data: ID: 5179, Type: send_character_interaction, Recipient: BROADCAST, Message: 'send_character_interaction={
+	default_state={
+		identity=5179
+		sender=1
+		receiver=0
+		attribs=0
+	}
+	object={
+		character_interaction={
+			character_interaction=arrange_marriage_interaction			scope={
+				root={
+				}
+
+				seed=-1
+				event_targets={
+					actor={
+						type=char
+						identity=34451
+					}
+
+					recipient={
+						type=char
+						identity=29232
+					}
+
+					secondary_actor={
+						type=char
+						identity=34451
+					}
+
+					secondary_recipient={
+						type=char
+						identity=62723
+					}
+
+					intermediary={
+						type=char
+						identity=4294967295
+					}
+
+					grand_wedding_p
